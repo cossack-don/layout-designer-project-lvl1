@@ -13,9 +13,14 @@
   
   --link-hover:#3c5b8a;
 
-  --background-light: #f5f4f0;
-  --background-dark: #b09a81;
-  --background-very-dark: #3c3e42;
+  /* bg colors */
+
+  /* --background-light: #f5f4f0; */
+  /* --background-very-dark: #3c3e42; */
+  /* --background-dark: #b09a81; */
+  --white-light: #f5f4f0;
+  --dark: #b09a81;
+  --very-dark: #3c3e42;
 }
 /* end main colors */
 /* ___________________________________________ */
@@ -229,15 +234,15 @@ main {
 }
 
 .bg-light {
-  background: var(--background-light);
+  background: var(--white-light);
 }
 
 .bg-dark {
-  background: var(--background-dark);
+  background: var(--dark);
 }
 
 .bg-very-dark {
-  background: var(--background-very-dark);
+  background: var(--very-dark);
 }
 
 /* end background colors */
@@ -278,7 +283,8 @@ main {
   text-align: center;
   text-transform: uppercase;
   width: 110px;
-  height: 25px;
+  /* height: 25px; */
+  word-break:break-all;
   margin-top: 35px;
   padding: 12px 24px 12px 24px;
   border: solid 1px var(--orange);
